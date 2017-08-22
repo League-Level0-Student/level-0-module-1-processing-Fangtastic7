@@ -10,8 +10,10 @@ void   draw()   {
       fill(0,266,100);
       rect(176,   103,   12,   32);
       if(mousePressed){
-      
-      ellipse(50, 20, 150, 150);
+      println(mouseX);
+      println(mouseY);
+      fill(200, 200, 200);
+      ellipse(72, 201, 45, 45);
       }
       }
       
